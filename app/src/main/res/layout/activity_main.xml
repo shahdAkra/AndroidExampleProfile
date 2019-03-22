@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Shahd's Application"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="30dp"
+
+
+        app:fontFamily="@font/great_vibes" />
+
+    <Button
+        android:id="@+id/btn_dataEnteryFormActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:onClick="dataEnteryFormActivity"
+        android:text="Data Entery Form Activity"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/btn_recyclerViewActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:onClick="recyclerViewActivity"
+        android:text="@string/str_recyclerView"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:text="TextInputLayout"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp"
+        android:onClick="textInputLayoutActivity"/>
+
+
+</LinearLayout>
